@@ -38,7 +38,7 @@ const Pagination: React.FC<PaginationProps> = ({
     >
       {!isFirstPage && (
         <PaginationControl onClick={() => onPageChange(currentPage - 1)}>
-          Previouse
+          Previous
         </PaginationControl>
       )}
 

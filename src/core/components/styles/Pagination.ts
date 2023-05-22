@@ -24,6 +24,7 @@ export const PaginationItem = styled.div<{ isActive: boolean }>`
 export const PaginationControl = styled.div`
   font-size: 12px;
   color: ${(props) => props.theme.brandDefault};
+  cursor: pointer;
 
   &:first-child {
     margin-right: 10px;

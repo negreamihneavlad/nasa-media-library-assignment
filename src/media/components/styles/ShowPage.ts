@@ -19,13 +19,16 @@ export const BackButton = styled.button`
   cursor: pointer;
   border: none;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+
+  &:hover {
+    opacity: 0.5;
+  }
 `
 
 export const CollectionContainer = styled.div`
   display: flex;
   margin: 0 auto;
   max-width: 500px;
-  /* align-items: center; */
   flex-direction: column;
 `
 
