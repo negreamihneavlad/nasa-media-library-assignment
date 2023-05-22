@@ -67,7 +67,7 @@ const ShowPage: React.FC = () => {
               <DetailItem>
                 <DetailLabel>Keywords: </DetailLabel>
                 <DetailValue>
-                  {data.data[0].keywords.length
+                  {data.data[0].keywords
                     ? data.data[0].keywords.join(', ')
                     : ''}
                 </DetailValue>
